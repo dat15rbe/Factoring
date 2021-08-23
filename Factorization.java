@@ -78,7 +78,7 @@ public class Factorization {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println("Binary Matrix generated");
+        System.out.println("Binary Array generated");
     }
 
     private static void writeBitSet (BitSet bitSet, BufferedWriter bufferedWriter, int length) throws Exception{
