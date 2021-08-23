@@ -143,7 +143,7 @@ public class Factorization {
     }
 
     private static void findSolutions() throws IOException, InterruptedException {
-        System.out.println("Preparing to run GaussBin");
+        System.out.println("Preparing to run Gauss");
         Process compileGaussBin = Runtime.
                 getRuntime().
                 exec("g++ -o gauss GaussBin.cpp", null,new File("./src"));
