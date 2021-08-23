@@ -49,7 +49,7 @@ public class Factorization {
 
         long endTime = System.currentTimeMillis();
         System.out.println("It took " + (endTime-startTime) + " ms");
-        System.out.println("It took4 " + (endTime-startTime) + " ms");
+        
     }
 
     private static BigInteger squareRoot(BigInteger x) {
